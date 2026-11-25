@@ -1,0 +1,42 @@
+{
+  "name": "self-employment-tax",
+  "version": "1.0.0",
+  "description": "US self-employment tax and 1099 income tax estimates for freelancers (2026, 2027): Schedule SE, QBI deduction, Additional Medicare Tax and quarterly estimated taxes. Zero dependencies, IRS-sourced, tested.",
+  "main": "self-employment-tax.js",
+  "types": "index.d.ts",
+  "files": [
+    "self-employment-tax.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "self-employment-tax",
+    "1099",
+    "1099-calculator",
+    "tax-calculator",
+    "freelancer",
+    "irs",
+    "schedule-se",
+    "qbi",
+    "estimated-tax",
+    "quarterly-taxes",
+    "income-tax",
+    "us-tax",
+    "2026"
+  ],
+  "homepage": "https://github.com/jajpo-tools/self-employment-tax#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jajpo-tools/self-employment-tax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jajpo-tools/self-employment-tax/issues"
+  },
+  "author": "JAJPO (https://jajpo.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
